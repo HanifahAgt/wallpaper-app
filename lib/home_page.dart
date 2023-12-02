@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/detay.dart';
+import 'package:wallpaper_ui_c4/Screens/detay.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -82,7 +82,7 @@ class _HomePageState extends State<HomePage> {
                               borderRadius: BorderRadius.circular(10),
                               image: const DecorationImage(
                                   image: AssetImage(
-                                    "2.jpg",
+                                    "5.jpg",
                                   ),
                                   fit: BoxFit.cover))),
                       Padding(
@@ -164,7 +164,7 @@ class _HomePageState extends State<HomePage> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(10),
                             image: const DecorationImage(
-                                image: AssetImage("5.jpg"), fit: BoxFit.cover),
+                                image: AssetImage("7.jpg"), fit: BoxFit.cover),
                           ),
                         )),
                     const Positioned(
@@ -183,7 +183,7 @@ class _HomePageState extends State<HomePage> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(10),
                             image: const DecorationImage(
-                                image: AssetImage("4.jpg"), fit: BoxFit.cover),
+                                image: AssetImage("6.jpg"), fit: BoxFit.cover),
                           ),
                         )),
                     Positioned(
@@ -195,7 +195,7 @@ class _HomePageState extends State<HomePage> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(10),
                             image: const DecorationImage(
-                                image: AssetImage("7.jpg"), fit: BoxFit.cover),
+                                image: AssetImage("2.jpg"), fit: BoxFit.cover),
                           ),
                         )),
                   ],
@@ -244,25 +244,6 @@ class _HomePageState extends State<HomePage> {
                     ),
                   )),
             ),
-            Positioned(
-                left: 170,
-                bottom: 65,
-                child: Container(
-                  height: 60,
-                  width: 60,
-                  decoration: BoxDecoration(
-                    border: Border.all(width: 4, color: Colors.white),
-                    borderRadius: BorderRadius.circular(50),
-                    color: const Color(0xffFF8A00),
-                  ),
-                  child: const Center(
-                    child: Icon(
-                      Icons.add,
-                      size: 30,
-                      color: Colors.white,
-                    ),
-                  ),
-                )),
           ],
         ),
       ),
