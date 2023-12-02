@@ -2,6 +2,7 @@
 
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:wallpaper_ui_c4/Screens/home_page.dart';
 
 class Detay extends StatefulWidget {
   var imgPath;
@@ -68,6 +69,20 @@ class _DetayState extends State<Detay> {
             Colors.black
           ],
         )),
+      ),
+      Positioned(
+              top: 10,
+              left: 15,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: const [
+                        Icon(
+                          Icons.arrow_back,
+                          size: 30,
+                          color: const Color(0xffFF8A00),
+                        ),
+                      ],
+            ),
       ),
       const Positioned(
           left: 15,
@@ -171,5 +186,7 @@ class _DetayState extends State<Detay> {
             ),
           ))
     ]));
+  }
+    void onTabTapped(int index) {
   }
 }
